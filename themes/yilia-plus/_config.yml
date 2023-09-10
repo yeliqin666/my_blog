@@ -6,17 +6,17 @@ menu:
 
 # subNav-子导航
 subNav:
-  - github: "yeliqin666"
-  - gitee: "yeliqin666" # 码云
+  - github: "https://github.com/yeliqin666"
+  - gitee: "https://gitee.com/yeliqin666" # 码云
   # - blog: "#"
   # - csdn: "#"
   # - rss: "#"
   # - zhihu: "#"
   - qq: "img/2434387555.jpg"
-  - weixin: "img/weixin_.png"
+  - weixin: "img/weixin.png"
   # - douban: "#"
   # - segmentfault: "#"
-  - bilibili: "YFGroup官方"
+  - bilibili: "https://space.bilibili.com/430189111"
   # - acfun: "#"
   - mail: "mailto:liurunqin666@163.com"
   # - facebook: "#"
@@ -143,7 +143,7 @@ music:
   id: 34179858  # 网易云分享的音乐ID(更换音乐请更改此配置项)
   autoPlay: true  # 是否开启自动播放
   # 提示文本(关闭请设置为false)
-  text: '这似乎是首纯音乐，请尽情的欣赏它吧！'
+  text: '来首校歌，交兵必胜！'
 
 # 页面点击小红心
 clickLove:
