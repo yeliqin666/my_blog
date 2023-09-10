@@ -1,4 +1,4 @@
-name: CI
+name: hexo-blog-deploy
 
 on:
   push:
@@ -18,18 +18,11 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node_version: [14.x]
+        node_version: [19.x]
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Checkout theme repo
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ env.THEME_REPO }}
-          ref: ${{ env.THEME_BRANCH }}
-          path: themes/concise
 
       - name: Checkout deploy repo
         uses: actions/checkout@v2
@@ -45,19 +38,26 @@ jobs:
 
       - name: Configuration environment
         env:
-          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+          HEXO_DEPLOY_SECRET: ${{secrets.HEXO_DEPLOY_SECRET}}
         run: |
           sudo timedatectl set-timezone "Asia/Shanghai"
+
+          # 配置私钥，否则无法访问部署库，提示 git@github.com: Permission denied (publickey).
           mkdir -p ~/.ssh/
-          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
+          echo "$HEXO_DEPLOY_SECRET" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+          # 设置用户名和邮箱，否则提示 Please tell me who you are.
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
 
       - name: Install dependencies
         run: |
           npm install
+          npm install hexo-deployer-git --save
+          # 全局搜索插件
+          npm install hexo-generator-searchdb --save
 
       - name: Deploy hexo
         run: |
