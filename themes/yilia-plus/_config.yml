@@ -10,7 +10,7 @@ subNav:
   - github: "#" # (支持设置多个)
   - gitee: "#" # 码云
   - jianshu: "#" #简书
-  # - cnblog: "#"
+  - cnblog: "#"
   # - blog: "#"
   # - csdn: "#"
   # - rss: "#"
