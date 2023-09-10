@@ -105,7 +105,8 @@ deploy:
   type: 'git'
   repository: git@github.com:yeliqin666/yeliqin666.github.io.git
   branch: master
-  jsonContent:
+
+jsonContent:
     meta: false
     pages: false
     posts:
