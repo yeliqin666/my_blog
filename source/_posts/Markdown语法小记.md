@@ -4,7 +4,7 @@ title: Markdown语法小记
 date: 2023-09-10 22:09:00
 author: yeliqin666
 categories:
-- 技术
+- 资源
 tags:
 - Markdown
 ---
