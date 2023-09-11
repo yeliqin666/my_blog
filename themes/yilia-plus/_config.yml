@@ -118,18 +118,18 @@ gitment_oauth:
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
 # 基于码云的评论系统(https://gitee.com/zhousiwei/giteement)
 giteement:
-  enable: false  # 是否启用码云评论系统
+  enable: true  # 是否启用码云评论系统
   # 是否使用官方js(false可以提升访问速度)
   remote: false
-  redirect_uri: ''   # 应用回调地址(请和配置的第三方应用保持一致)
+  redirect_uri: 'https://yeliqin666.pages.dev/'   # 应用回调地址(请和配置的第三方应用保持一致)
   # 不能更改(网上开源项目`https://github.com/Rob--W/cors-anywhere`作者提供的专门用来跨域服务器的配置)
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
-  giteeID: ''  # 你的码云账号英文名
+  giteeID: 'yeliqin666'  # 你的码云账号英文名
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
   repo: ''
   gitment_oauth:
-    client_id: ''           #client ID
-    client_secret: ''       #client secret
+    client_id: '90c475afd096d85b673d6c3c9b31051ebb32dcd4409b847ce039b5d6ccef244f'           #client ID
+    client_secret: '879c370b03e339807ca26ad7b318e9b446424591197efb345e5d7cec42d5987a'       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:
@@ -264,17 +264,17 @@ smart_menu:
 
 # 友情链接
 friends:
-  技术笔记:  #网站名称
+  試毅-思伟技术笔记:  #网站名称
     #网站地址
     url: https://zhousiwei.gitee.io/ibooks/
     #网站图片(可忽略不写)
     img: https://zhousiwei.gitee.io/ibooks/favicon.ico
     #网站简介(可忽略不写)
     description: 记录工作和学习过程中的笔记-Linux笔记、安卓折腾笔记、读书笔记；吐槽、记录校园生活
-  GitHub:
-    url: https://github.com/yeliqin666
+  果核剥壳:
+    url: https://www.ghxi.com/
   码云:
     url: https://gitee.com/yeliqin666
 
 # 关于我
-aboutme: 主要涉及技术：<br>HEXO和Github Actions自动部署、<br>大学僧、山东汉子、开源爱好者、Linux<br><br>联系QQ:3120350836<br><br>感谢大家关注我的博客，请随处逛逛<br>有建议欢迎联系我！
+aboutme: 主要涉及技术：HEXO和Github Actions自动部署,一点HTML<br>我是谁：大学僧、山东汉子、开源爱好者、Linux<br><br>联系QQ:3120350836<br><br>感谢大家关注我的博客，请随处逛逛<br>有建议欢迎联系我！
