@@ -10,7 +10,9 @@ categories:
 ---
   <meta name="referrer" content="no-referrer" />
   <meta data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal">
+
 ## Buddy, Beware!
+
 Seventh grade brought changes, all right, but the biggest one didn't happen at school — it happened at home. Granddad Duncan came to live with us.
 
 <!-- more -->
