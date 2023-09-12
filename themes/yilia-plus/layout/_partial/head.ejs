@@ -47,9 +47,8 @@
   <%- partial('google-analytics') %>
   <%- partial('baidu-analytics') %>
   <% if (theme.clickLove && theme.clickLove.enable){ %>
-<!--单击显示文字-->
-<script type="text/javascript" src="lib/clickLove.js"></script>
-
+    <%# "页面点击小红心" %>
+ 	  <script src="<%- url_for('lib/clickLove.js') %>"></script>
   <% } %>
   <%- partial('baidu-push') %>
 
