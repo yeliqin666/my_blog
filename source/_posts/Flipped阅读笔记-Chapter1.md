@@ -14,10 +14,10 @@ caked with the stuff 沾满了
 hop out 跳出
 she planted her rear end on the floor 一屁股坐在地板上
 This was the beginning of my soon-to-become-acute awareness that the girl cannot take a hint. 这是我即将敏锐地意识到这个女孩无法接受暗示的开始。
+<!-- more -->
 she blasted right past me, grabbing my arm and yanking me along. 她从我身边冲过，抓住我的胳膊，把我拉了过来。
 I was making this big windmill motion to break away from her, but somehow on the downswing my hand wound up tangling into hers. 我正在做这个大风车的动作，想挣脱她，但不知何故，在下摆时，我的手缠绕在她的身上。
 
-<!-- more -->
 My mom came out of the house and immediately got the world's sappiest look on her face. My mom came out of the house and immediately got the world's sappiest高兴 look on her face.
 
 ##  Main idea:

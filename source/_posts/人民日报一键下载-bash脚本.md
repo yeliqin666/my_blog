@@ -14,6 +14,7 @@ categories:
 
 依赖于pdftk实现页面合并，报纸资源来自人民日报官网，侵删
 
+<!-- more -->
 代码如下
 ```
 #!/bin/bash

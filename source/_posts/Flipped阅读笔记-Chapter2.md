@@ -13,8 +13,8 @@ The first day I met Bryce Loski, I flipped. Honestly, one look at him and I beca
 
 It's been over six years now, and I learned long ago to hide my feelings, but oh, those first days. Those first years! I thought I would die for wanting to be with him.
 
-Two days before the second grade is when it started, although the anticipation began weeks before—ever since my mother had told me that there was a family with a boy my age moving into the new house right across the street.
 <!-- more -->
+Two days before the second grade is when it started, although the anticipation began weeks before—ever since my mother had told me that there was a family with a boy my age moving into the new house right across the street.
 Soccer camp had ended, and I'd been so bored because there was nobody, absolutely nobody, in the neighborhood to play with. Oh, there were kids, but every one of them was older. That was dandy for my brothers, but what it left me was home alone.
 
 My mother was there, but she had better things to do than kick a soccer ball around. So she said, anyway. At the time I didn't think there was anything better than kicking a soccer ball around, especially not the likes of laundry or dishes or vacuuming, but my mother didn't agree. And the danger of being home alone with her was that she'd recruit me to help her wash or dust or vacuum, and she wouldn't tolerate the dribbling of a soccer ball around the house as I moved from chore to chore.
