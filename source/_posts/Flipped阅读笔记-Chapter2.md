@@ -14,7 +14,7 @@ The first day I met Bryce Loski, I flipped. Honestly, one look at him and I beca
 It's been over six years now, and I learned long ago to hide my feelings, but oh, those first days. Those first years! I thought I would die for wanting to be with him.
 
 Two days before the second grade is when it started, although the anticipation began weeks before—ever since my mother had told me that there was a family with a boy my age moving into the new house right across the street.
-
+<!-- more -->
 Soccer camp had ended, and I'd been so bored because there was nobody, absolutely nobody, in the neighborhood to play with. Oh, there were kids, but every one of them was older. That was dandy for my brothers, but what it left me was home alone.
 
 My mother was there, but she had better things to do than kick a soccer ball around. So she said, anyway. At the time I didn't think there was anything better than kicking a soccer ball around, especially not the likes of laundry or dishes or vacuuming, but my mother didn't agree. And the danger of being home alone with her was that she'd recruit me to help her wash or dust or vacuum, and she wouldn't tolerate the dribbling of a soccer ball around the house as I moved from chore to chore.
@@ -103,8 +103,41 @@ The pressure of detention made Bryce panic. And even though it bothered my consc
 
 I thought about asking Mr. Mertins about earlobe fuzz when we were discussing evolution in science, but I didn't. Instead, I spent the year whispering spelling words, sniffing watermelon, and wondering if I was ever going to get my kiss.
 ## 摘录
+They’re connected to yours by some invisible physical force, and they hold you fast while the rest of the world swirls and twirls and falls completely away.
+
+Afraid she’s got cooties虱子?
+
+I yanked猛拉 on her arm and told her to stop it
+The same species, maybe, but a radically 彻底的different beast, to be sure. Like a wolf and a whippet 赛狗—only science would put them on the same tree.
+
+The sight of him—the thought of him—still sent my heart humming嗡嗡, but my legs didn’t actually chase after him anymore. I just watched and thought and dreamed.
+
+Then in the fifth grade Shelly Stalls came into the picture. A whiny, gossipy, backstabbing ninny who says one thing to one person and the opposite to another. Now that we’re in junior high, she’s the undisputed diva of drama, but even back in elementary school she knew how to put on a performance. 
+
+claiming her body would absolutely collapse from the strain if she ran or jumped or stretched.
+
+What bugged烦扰 me about it was not the fact that she got out of P.E.—who’d want her on their team, anyway?
+
+ It was her hair. She had mountains of it堆积如山的, twisted this way or that, clipped or beaded, braided or swirled. 或串珠、编织或旋转
+
+Her ponytails rivaled the ones on carousel horses. 她的马尾辫可以与旋转木马上的马尾辫相媲美。
+
+And on the days she let it all hang down, she’d sort of shimmy and cuddle inside it like it was a blanket, so that practically all you saw of her face was her nose. Good luck playing four-square with a blanket over your head.
+
+That pushy little princess had no business hanging on to him like that!
+
+Bryce looked over his shoulder from time to time as they walked along, and he was looking at me. My first thought was that he was telling me he was sorry. Then it dawned on me— he needed my help. Absolutely, that’s what it had to be! Shelly Stalls was too delicate to shake off, too swirly to be pushed away. She’d unravel and start sniffling and oh, how embarrassing that would be for him! No, this wasn’t a job a boy could do gracefully. This was a job for a girl.
+
+I had Fluffy in a headlock and her arm twisted back in a hammerlock, and no amount of her squawking or scratching was going to get me to un lock her until a teacher arrived.我把Fluffy锁在头上，她的胳膊被锤锁扭回去，在老师到来之前，她再多的尖叫或抓挠都不会让我解开她的锁。
+
+I had the self-control to do nothing more than restrain约束 her.
+
+The facts spoke for themselves.事实不言自明
 
 ## Main idea
+This chapter is told through the view of Juli.Juli just wanna have a peer friend at first,because she didn't share the same hobbies with other children and she is tired of doing those housework.She offered to help Bruce move the boxes,expecting to have time to play with him.But when she looked into Bryce's Eyes,she came to love him.She thought she felt the feeling of kiss and began to be inseparable from Bryce.She didn't realize that she is annoying in Bryce's eyes,and she thought the time with Bryce is nice.She even mistakenly thought that 
+Shelly is haunting Bryce and causing him trouble-we obviously know that Bryce is doing this to get rid of Julie.
+Julie is really an innocent child!
 
 ## My reflection
-
+In this chapter, Julie launched a passionate pursuit of Bryce, not afraid of all hardships, even at the expense of fighting with her classmates.Bryce's trouble with Julie was misunderstood by Julie as shyness, which made people laugh! The author used a lot of psychological descriptions to portray Julie's image, and made a three-dimensional image of an innocent, kind, generous and unconstrained girl.
