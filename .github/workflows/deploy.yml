@@ -59,14 +59,6 @@ jobs:
           # È«¾ÖËÑË÷²å¼þ
           npm install hexo-generator-searchdb --save
           
-      - name: Build Gitee Pages
-        uses: yanglbme/gitee-pages-action@main
-        with:
-            gitee-username: yeliqin666
-            gitee-password: ${{ secrets.GITEE_PASSWORD }}
-            gitee-repo: yeliqin666/yeliqin666
-            branch: master
-            
       - name: Deploy hexo
         run: |
           npm run deploy
