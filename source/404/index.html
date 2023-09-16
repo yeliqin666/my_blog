@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5"/>
+    <title>404 - 找不到页面</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-size: 26px;
+            user-select: none
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: white;
+            color: black;
+            font-family: arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .content {
+            position: relative;
+            width: 650px;
+            max-width: 100%;
+            margin: 0px;
+            background: white;
+            /* padding: 50px 80px 0px; */
+            text-align: center;
+            z-index: 99;
+            box-shadow: -10px 10px 67px -12px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            animation: apparition 0.5s 0.1s cubic-bezier(0.39, 0.575, 0.28, 0.995) forwards;
+        }
+
+        .content p {
+            font-size: 1.3rem;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            letter-spacing: 0.1rem;
+            color: #595959;
+        }
+
+        .content button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 1rem;
+            border: 3px solid #595959;
+            background: transparent;
+            font-size: 1.11rem;
+            color: #595959;
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        .particle {
+            position: absolute;
+            display: block;
+            pointer-events: none;
+        }
+
+        @keyframes apparition {
+            from {
+                opacity: 0;
+                transform: translateY(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(200px);
+            }
+        }
+    </style>
+</head>
+<body>
+<main class="container">
+    <article class="content">
+         <h1>
+            404 找不到这个页面
+        </h1>
+        <p>
+            抱歉，
+            但我们可以帮助宝贝回家！
+        </p>
+        <iframe src="https://api.isoyu.com/gy/" frameborder="0" scrolling="no" width="300" height="400"></iframe>
+        <p>
+            <a href="http://www.blog.rdtalk.cn">
+                <button>返回首页</button>
+            </a>
+          
+        </p>
+    </article>
+</main>
+<script>
+    // 给背景加点好玩的
+    for (let i = 0; i < 150; i++) {
+        const span = document.createElement('span');
+        span.className = 'particle';
+        span.style.top = random(0, 100) + '%';
+        span.style.left = random(0, 100) + '%';
+        span.style.fontSize = random(12, 42, true) + 'px';
+        span.style.filter = 'blur(' + random(0.1, 2.6) + 'px)';
+        span.style.animation = random(10, 60) + 's float infinite';
+        // span.innerHTML = String.fromCharCode(random(33, 126, true));
+        span.innerHTML = "404";
+        span.style.color = 'rgb(' + random(0, 255, true) + ',' + random(0, 255, true) + ',' + random(0, 255, true) + ')';
+        document.querySelector('.container').appendChild(span);
+    }
+
+    function random(min, max, isInteger) {
+        const number = Math.random() * (max - min) + min;
+        return isInteger ? Math.floor(number) : number;
+    }
+</script>
+</body>
+</html>
