@@ -118,18 +118,18 @@ gitment_oauth:
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
 # 基于码云的评论系统(https://gitee.com/zhousiwei/giteement)
 giteement:
-  enable: false  # 是否启用码云评论系统
+  enable: true  # 是否启用码云评论系统
   # 是否使用官方js(false可以提升访问速度)
-  remote: false
+  remote: true
   redirect_uri: 'https://yeliqin666.pages.dev/'   # 应用回调地址(请和配置的第三方应用保持一致)
   # 不能更改(网上开源项目`https://github.com/Rob--W/cors-anywhere`作者提供的专门用来跨域服务器的配置)
   oauth_uri: https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token
   giteeID: 'yeliqin666'  # 你的码云账号英文名
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
-  repo: ''
+  repo: 'yeliqin666'
   gitment_oauth:
-    client_id: ''           #client ID
-    client_secret: ''       #client secret
+    client_id: '90c475afd096d85b673d6c3c9b31051ebb32dcd4409b847ce039b5d6ccef244f'           #client ID
+    client_secret: '879c370b03e339807ca26ad7b318e9b446424591197efb345e5d7cec42d5987a'       #client secret
 
 # 访问量统计功能(不蒜子)
 busuanzi:
