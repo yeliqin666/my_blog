@@ -182,7 +182,6 @@ When math let out, I started to chase after her to tell her that she ought to tr
 
 After all, the last thing I needed was for Juli Baker to think I missed her.
 
-
 ## Flipped 《怦然心动》Chapter 3 讲解(上)
 ### 搬运自公众号：铺路石英语，侵删
 
