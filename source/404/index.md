@@ -5,5 +5,5 @@ permalink: /404.html
 ---
 ## 抱歉，但我们可以帮助宝贝回家
 
-<iframe src="https://api.isoyu.com/gy/" frameborder="0" scrolling="no" </iframe>
+<iframe src="https://api.isoyu.com/gy/" frameborder="0" scrolling="no" width="400" height="700"></iframe>
 
