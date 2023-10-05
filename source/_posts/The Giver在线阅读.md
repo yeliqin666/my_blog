@@ -9,4 +9,4 @@ categories:
 - 读书
 ---
 ## The Giver电子版，资源来自网络，侵删
-{% pdf files/The giver.pdf %}
+ {% pdf /pdf/The-giver.pdf %}
