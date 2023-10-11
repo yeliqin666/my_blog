@@ -8,6 +8,6 @@ tags:
 categories:
 - 读书
 ---
-## The Giver电子版，资源来自网络，侵删
+## The Giver电子版，资源来自网络， 侵删
  {% pdf /pdf/The-giver.pdf %}
 
