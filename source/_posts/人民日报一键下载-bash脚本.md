@@ -4,7 +4,7 @@ title: 人民日报一键下载-bash脚本
 date: 2023-09-12 13:28:17
 author: yeliqin666
 tags:
-- 人民日报
+- 报刊
 categories:
 - 资源
 ---
