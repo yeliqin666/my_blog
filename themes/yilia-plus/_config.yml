@@ -130,8 +130,10 @@ giteement:
   gitment_oauth:
     client_id: '90c475afd096d85b673d6c3c9b31051ebb32dcd4409b847ce039b5d6ccef244f'           #client ID
     client_secret: '879c370b03e339807ca26ad7b318e9b446424591197efb345e5d7cec42d5987a'       #client secret
+
 #6、Valine https://valine.js.org
 valine: 
+    enable : true
     appid : PWdopvQaJkbpvPD481MXfD8D-gzGzoHsz  #Leancloud应用的appId
     appkey : RIESBHntHmMAmtiSyIM5zjVR  #Leancloud应用的appKey
     verify: false #验证码
