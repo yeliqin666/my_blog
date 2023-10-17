@@ -133,7 +133,7 @@ giteement:
 
 #6、Valine https://valine.js.org
 valine: 
-    enable : true
+    enable : false
     appid : PWdopvQaJkbpvPD481MXfD8D-gzGzoHsz  #Leancloud应用的appId
     appkey : RIESBHntHmMAmtiSyIM5zjVR  #Leancloud应用的appKey
     verify: false #验证码
