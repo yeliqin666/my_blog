@@ -3,12 +3,6 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
   <%- partial('post/title', {class_name: 'article-title'}) %>
-  <% if (!post.noDate){ %>
-  <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
-  <% } %>
-  <% if(theme.word_count && theme.word_count.enable && !post.no_word_count){%>
-    <%- partial('post/word') %>
-  <% } %>
 	<div class="weather">
   <!-- 《添加“心知天气”-->
     <div id="tp-weather-widget"></div>
@@ -28,6 +22,12 @@
   </script>
   <!-- 添加“心知天气”》-->
   </div>
+  <% if (!post.noDate){ %>
+  <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
+  <% } %>
+  <% if(theme.word_count && theme.word_count.enable && !post.no_word_count){%>
+    <%- partial('post/word') %>
+  <% } %>
   </header>
   <% } %>
   <div class="article-entry" itemprop="articleBody">
