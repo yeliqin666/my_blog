@@ -3,6 +3,12 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
   <%- partial('post/title', {class_name: 'article-title'}) %>
+  <% if (!post.noDate){ %>
+  <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
+  <% } %>
+  <% if(theme.word_count && theme.word_count.enable && !post.no_word_count){%>
+    <%- partial('post/word') %>
+  <% } %>
 	<div class="weather">
   <!-- 《添加“心知天气”-->
     <div id="tp-weather-widget"></div>
@@ -22,12 +28,22 @@
   </script>
   <!-- 添加“心知天气”》-->
   </div>
-  <% if (!post.noDate){ %>
-  <%- partial('post/date', {class_name: 'archive-article-date', date_format: null}) %>
-  <% } %>
-  <% if(theme.word_count && theme.word_count.enable && !post.no_word_count){%>
-    <%- partial('post/word') %>
-  <% } %>
+  <div class="poem-wrap">
+  <div class="poem-border poem-left"></div>
+  <div class="poem-border poem-right"></div>
+    <h>念两句诗</h>
+    <p id="poem">挑选中...</p>
+    <p id="info">
+  <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    jinrishici.load(function(result) {
+      poem.innerHTML = result.data.content
+      info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+      document.getElementById("poem").value(poem);
+      document.getElementById("info").value(info);  
+  });
+  </script>
+</div>
   </header>
   <% } %>
   <div class="article-entry" itemprop="articleBody">
