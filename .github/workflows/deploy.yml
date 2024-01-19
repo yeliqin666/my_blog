@@ -8,7 +8,7 @@ on:
 env:
   GIT_USER: yeliqin666
   GIT_EMAIL: 15965115971@163.com
-  DEPLOY_REPO: git@gitee.com:yeliqin666/yeliqin666.git
+  DEPLOY_REPO: yeliqin666/yeliqin666.github.io
   DEPLOY_BRANCH: master
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout deploy repo
         uses: actions/checkout@v2
         with:
-          repository: ${{ DEPLOY_REPO }}
+          repository: ${{ env.DEPLOY_REPO }}
           ref: ${{ env.DEPLOY_BRANCH }}
           path: .deploy_git
 
