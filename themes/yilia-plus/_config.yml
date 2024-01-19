@@ -111,8 +111,8 @@ gitment_owner: false      #你的 GitHub ID
 gitment_remote: false
 gitment_repo: 'yeliqin666.github.io'          #存储评论的 repo name(需要在Github创建)
 gitment_oauth:
-  client_id: '6ee73be2fb4157954b76'           #client ID
-  client_secret: 'bc5a915373cd9a6a9edb7b11e6308f9ed9ef2e0b'       #client secret
+  client_id: ''           #client ID
+  client_secret: ''       #client secret
 
 # 4、Giteement----【国内用户建议使用这个，相对比较快】
 # 关于如何集成:https://www.jianshu.com/p/f5c4633524c7
@@ -128,8 +128,8 @@ giteement:
   # 存储评论的 repo name(需要在码云仓库创建公开仓库)
   repo: 'yeliqin666'
   gitment_oauth:
-    client_id: '90c475afd096d85b673d6c3c9b31051ebb32dcd4409b847ce039b5d6ccef244f'           #client ID
-    client_secret: '879c370b03e339807ca26ad7b318e9b446424591197efb345e5d7cec42d5987a'       #client secret
+    client_id: ''           #client ID
+    client_secret: ''       #client secret
 
 #6、Valine https://valine.js.org
 valine: 
@@ -153,7 +153,7 @@ busuanzi:
 music:
   enable: true
   # 播放器尺寸类型(1：长尺寸、2：短尺寸)
-  type: 2
+  type: 1
   id: 34179858  # 网易云分享的音乐ID(更换音乐请更改此配置项)
   autoPlay: false  # 是否开启自动播放
   # 提示文本(关闭请设置为false)
