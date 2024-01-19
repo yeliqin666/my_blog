@@ -27,7 +27,7 @@ jobs:
       - name: Checkout deploy repo
         uses: actions/checkout@v2
         with:
-          repository: ${{ env.DEPLOY_REPO }}
+          repository: ${{ DEPLOY_REPO }}
           ref: ${{ env.DEPLOY_BRANCH }}
           path: .deploy_git
 
