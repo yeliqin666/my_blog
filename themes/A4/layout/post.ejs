@@ -3,12 +3,12 @@
     <% if(is_post()) { %>
         <div class="post-main-title">
             <%= page.title %>
-            <%= page.author %>
         </div>
       
     <% } %>
 
     <div class="post-md">
+        <%= page.author %>
         <% if(theme.tool.topToc) { %>
             <% if(is_post() && (!('toc' in page) || page.toc == true)) { %>
                 <%- toc(page.content, {
