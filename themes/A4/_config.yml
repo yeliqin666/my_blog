@@ -41,7 +41,7 @@ footerLink: # 底部的链接自定义
   # ...
 
 post: #除首页之外页面
-  footer: 看过大海的人不会忘记海的广阔🌊   # 底部左侧 自定义信息
+  footer: 好好学习，天天向上✍️   # 底部左侧 自定义信息
   themeInfo: true # true | false  # 是否开启 底部右侧 声明本站信息
   endContent: 以上 # 当你使用了 评论功能，此配置才会生效
 
@@ -75,7 +75,7 @@ cdn:
 # 注：颜色代码需加“#”，颜色单词不需要加“#”
 # 更多A4色调搭配推荐：https://ninojay.top/hexoplugin/A4-color-change/
 color: 
-  enable: false # true | false 
+  enable: true # true | false 
   font: "#9e5345" # 字体颜色
   background: "#e8e0c9" # 最底部层背景颜色
   indexBackGround: "#efeae2" # 首页层颜色
@@ -93,7 +93,7 @@ imageShow:
 
 # A4默认中文使用霞鹜文楷，如果你想关闭这种字体，首先保证enable为 true 接着可以开关对应字体
 font:
-  enable: false # 是否使用字体开关功能
+  enable: true # 是否使用字体开关功能
   LXGWWenKai: true # 霞鹜文楷 如果关闭，中文则使用的是 思源宋体，思源宋体不提供关闭 
 
 # ---------------------------------------------------------------------------------------

@@ -8,7 +8,6 @@ tags:
 categories:
 - 资源
 ---
-## 玩机资源整理-第一弹
 
 * [V神-Adobe全家桶](https://pan.baidu.com/s/1OjPuG0jeWZzodOXcnuUf0g)  提取码：1122
 
