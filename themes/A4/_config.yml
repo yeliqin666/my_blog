@@ -46,7 +46,7 @@ post: #除首页之外页面
   endContent: 以上 # 当你使用了 评论功能，此配置才会生效
 
 # 相对于source目录下的头像url
-favicon: /img/favicon.webp
+favicon: /img/favicon.png
 
 # 是否启用一些特色工具 false | true
 tool:
