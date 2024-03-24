@@ -2,9 +2,6 @@
 title: index
 date: 2024-03-24 13:53:26
 ---
-
-本站构建状态：![pages-build-deployment](https://github.com/yeliqin666/my_blog/actions/workflows/deploy.yml/badge.svg)
-
 这个网站？
 
 有一个自己的网站是学过编程的人，甚至喜爱网上冲浪的人，莫名的执念。无奈技术力不足，还好在bilibili接触到了hexo静态博客，学习修改主题，学习GithubAction自动部署，勉勉强强做成了现在这个样子。虽然每次部署的Warning总让人疑惑，但我是个只重结果的人，编译得出来就好了嘛。
