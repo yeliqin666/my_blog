@@ -3,12 +3,12 @@
 menu:
   首页: /  #需要hexo new page index,在index/index.md填写的内容将会展现在首页上
   文章: /list/ # 需要hexo new page list
-  # 添加其他页面格式举例：
-  #关于: /about/ # 需要hexo new page about
   标签: /tags/ #需要hexo new page tags
   分类: /categories/ # 需要hexo new page categories
   音乐解锁: /unlockmusic/
   迫害: /hide/
+  # 添加其他页面格式举例：
+  #关于: /about/ # 需要hexo new page about
   # ...
 
 # 首页你想要展示的menu链接，注意当你修改了menu中的别名，这里要随着更改，不然你会疑惑怎么首页没有修改后的别名
